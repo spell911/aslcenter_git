@@ -55,208 +55,208 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h3>Categories</h3>
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bush">
-                                    </span>Bush</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_Bush" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Bush</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Grasier Bush</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Sinter Bush</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+            <h3>Categories</h3>
+               <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bush">
+                            </span>Bush</a>
+                        </h4>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_BallScrew">
-                                    </span>Precision Ground Ball Screw</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_BallScrew" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Articles</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">News</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Newsletters</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Comments</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_LmGuide">
-                                    </span>LM Guide</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_LmGuide" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Articles</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">News</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Newsletters</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Comments</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideBearing">
-                                    </span>Slide Bearing</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_SlideBearing" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Articles</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">News</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Newsletters</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Comments</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideShaft">
-                                    </span>Slide Shaft</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_SlideShaft" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Articles</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">News</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Newsletters</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Comments</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_RodEndBSearing">
-                                    </span>Rod End Bearing</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_RodEndBSearing" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Articles</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">News</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Newsletters</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Comments</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
+                    <div id="collapse_Bush" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Bush</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">Grasier Bush</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Sinter Bush</a>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_BallScrew">
+                            </span>Precision Ground Ball Screw</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_BallScrew" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Comments</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_LmGuide">
+                            </span>LM Guide</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_LmGuide" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Comments</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideBearing">
+                            </span>Slide Bearing</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_SlideBearing" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideShaft">
+                            </span>Slide Shaft</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_SlideShaft" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Comments</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_RodEndBSearing">
+                            </span>Rod End Bearing</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_RodEndBSearing" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <a href="#">Articles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       <a href="#">News</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      <a href="#">Newsletters</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Comments</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
             <div class="col-md-9">
                 <div class="row carousel-holder">
@@ -329,7 +329,7 @@
                                 </h4>
                                 <p>มีหน้าแปลนให้เลือกใช้งานได้หลายแบบ เช่น กลม, กลมตัดข้าง และแบบลูกปืนพร้อมเสื้อ ที่สะดวกที่จะนำไปใช้งาน</p>
                             </div>
-
+                            
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -340,7 +340,7 @@
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-
+                            
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -351,7 +351,7 @@
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-
+                           
                         </div>
                     </div>
                 </div>
