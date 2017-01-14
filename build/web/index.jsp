@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">A.S.L CENTER</a>
+                <a class="navbar-brand" href="index.jsp">A.S.L CENTER</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -40,7 +40,7 @@
                         <a href="#">เกี่ยวกับเรา</a>
                     </li>
                     <li>
-                        <a href="#">ผลิตภัณฑ์</a>
+                        <a href="products.jsp">ผลิตภัณฑ์</a>
                     </li>
                     <li>
                         <a href="contact.jsp">ติดต่อเรา</a>
