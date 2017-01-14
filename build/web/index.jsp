@@ -37,13 +37,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">เกี่ยวกับเรา</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="#">ผลิตภัณฑ์</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.jsp">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>
@@ -55,190 +55,190 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-            <h3>Categories</h3>
-               <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bush">
-                            </span>Bush</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_Bush" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Bush</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Grasier Bush</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      <a href="#">Sinter Bush</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+                <h3>Categories</h3>
+                <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideShaft">
-                            </span>Hard Chrome Bar</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_SlideShaft" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Hard Chrome Bar (S45C)</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Slide Shaft (SUJ 2) Hard Chrome Bar</a>
-                                    </td>
-                                </tr>
-                            </table>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bush">
+                                    </span>Bush</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_Bush" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">Bush</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Grasier Bush</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Sinter Bush</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
-                 <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Ball">
-                            </span>Ball</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_Ball" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Ball Retainer</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Ball Cage</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      <a href="#">Flex - Coupling</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#">Precision Ground Ball Screw</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
                     <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_LmGuide">
-                            </span>LM Guide</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_LmGuide" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">LM Guide</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Self-Lubrucant Linear Guideway & Mimi Linear</a>
-                                    </td>
-                                </tr>
-                             
-                            </table>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideShaft">
+                                    </span>Hard Chrome Bar</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_SlideShaft" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">Hard Chrome Bar (S45C)</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Slide Shaft (SUJ 2) Hard Chrome Bar</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
                     <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideBearing">
-                            </span>Bearing</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_SlideBearing" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Slide Bearing</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Slide Bearing (Flange Type)</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                      <a href="#">Slide Unit</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                         <a href="#">Ball and Roller Bearing</a>
-                                    </td>
-                                </tr>
-                                   <tr>
-                                    <td>
-                                         <a href="#">Mounted Ball Bearing Unit</a>
-                                    </td>
-                                </tr>
-                                                                   <tr>
-                                    <td>
-                                         <a href="#">Rod End Bearing Cam Follower</a>
-                                    </td>
-                                </tr>
-                            </table>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Ball">
+                                    </span>Ball</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_Ball" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">Ball Retainer</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Ball Cage</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Flex - Coupling</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Precision Ground Ball Screw</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
-                  
                     <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_RodEndBSearing">
-                            </span>Universal</a>
-                        </h4>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_LmGuide">
+                                    </span>LM Guide</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_LmGuide" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">LM Guide</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Self-Lubrucant Linear Guideway & Mimi Linear</a>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                    <div id="collapse_RodEndBSearing" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <a href="#">Universal Joint</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <a href="#">Universal Shaft</a>
-                                    </td>
-                                </tr>
-                            </table>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideBearing">
+                                    </span>Bearing</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_SlideBearing" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">Slide Bearing</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Slide Bearing (Flange Type)</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Slide Unit</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Ball and Roller Bearing</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Mounted Ball Bearing Unit</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Rod End Bearing Cam Follower</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_RodEndBSearing">
+                                    </span>Universal</a>
+                            </h4>
+                        </div>
+                        <div id="collapse_RodEndBSearing" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <a href="#">Universal Joint</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Universal Shaft</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="col-md-9">
                 <div class="row carousel-holder">
@@ -311,7 +311,7 @@
                                 </h4>
                                 <p>มีหน้าแปลนให้เลือกใช้งานได้หลายแบบ เช่น กลม, กลมตัดข้าง และแบบลูกปืนพร้อมเสื้อ ที่สะดวกที่จะนำไปใช้งาน</p>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -322,7 +322,7 @@
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -333,7 +333,7 @@
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
