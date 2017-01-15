@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">เกี่ยวกับเรา</a>
+                        <a href="about.jsp">เกี่ยวกับเรา</a>
                     </li>
                     <li>
                         <a href="products.jsp">ผลิตภัณฑ์</a>
