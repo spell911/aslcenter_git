@@ -55,83 +55,83 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <div class="jumbotron jumbotron-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h1 class="h1">
-                    ติดต่อเรา! <small> </small></h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="well well-sm">
-                <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                ชื่อ</label>
-                            <input type="text" class="form-control" id="name" placeholder="ชื่อ" required="required" />
+            <div class="jumbotron jumbotron-sm" id="google_map">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12" >
+                            <h1 class="h1">
+                                ติดต่อเรา! <small> </small></h1>
                         </div>
-                        <div class="form-group">
-                            <label for="email">
-                                อีเมล</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="email" placeholder="อีเมล" required="required" /></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                หัวข้อ</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">เลือกหัวข้อ:</option>
-                                <option value="service">การบริการทั่วไป</option>
-                                <option value="suggestions">แนะนำสินค้า</option>
-                                <option value="product">การสนับสนุนผลิตภัณฑ์</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                ข้อความ</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="ข้อความ"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onclick="send_mail();">
-                            ส่งข้อความ</button>
                     </div>
                 </div>
-                </form>
             </div>
-        </div>
-        <div class="col-md-4">
-            <form>
-            <legend><span class="glyphicon glyphicon-globe"></span> ที่อยู่ของเรา</legend>
-            <address>
-                <strong>A.S.L CENTER CO., LTD.</strong><br>
-                27/456 หมู่ 7 ซ.กาญจนาภิเษก 005/1<br>
-                ถ.กาญจนาภิเษก แขวงหลักสอง เขตบางแค<br>
-                กรุงเทพมหานคร 10160<br>
-                <abbr title="Phone">
-                    โทร:</abbr>
-                (662) 803-5675
-            </address>
-            <address>
-                <strong>คุณอำนาจ</strong><br>
-                <a href="mailto:alscenter99@gmail.com">alscenter99@gmail.com</a>
-            </address>
-            </form>
-        </div>
-    </div>
-</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="well well-sm">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">
+                                                ชื่อ</label>
+                                            <input type="text" class="form-control" id="name" placeholder="ชื่อ" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">
+                                                อีเมล</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                                </span>
+                                                <input type="email" class="form-control" id="email" placeholder="อีเมล" required="required" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">
+                                                หัวข้อ</label>
+                                            <select id="subject" name="subject" class="form-control" required="required">
+                                                <option value="na" selected="">เลือกหัวข้อ:</option>
+                                                <option value="service">การบริการทั่วไป</option>
+                                                <option value="suggestions">แนะนำผลิตภัณฑ์</option>
+                                                <option value="product">การสนับสนุนผลิตภัณฑ์</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">
+                                                ข้อความ</label>
+                                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                                      placeholder="ข้อความ"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs" onclick="send_mail();">
+                                            ส่งข้อความ</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                            <legend><span class="glyphicon glyphicon-globe"></span> ที่อยู่ของเรา</legend>
+                            <address>
+                                <strong>A.S.L CENTER CO., LTD.</strong><br>
+                                27/456 หมู่ 7 ซ.กาญจนาภิเษก 005/1<br>
+                                ถ.กาญจนาภิเษก แขวงหลักสอง เขตบางแค<br>
+                                กรุงเทพมหานคร 10160<br>
+                                <abbr title="Phone">
+                                    โทร:</abbr>
+                                (662) 803-5675
+                            </address>
+                            <address>
+                                <strong>คุณอำนาจ</strong><br>
+                                <a href="mailto:alscenter99@gmail.com">alscenter99@gmail.com</a>
+                            </address>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- /.container -->
@@ -153,6 +153,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- page script -->
     <script src="js_functions/contact_page.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBphI6wzFcPBWUga5Vy1cuGwR251DUlNRU&callback=initMap"></script>
 </body>
-
 </html>

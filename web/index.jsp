@@ -55,7 +55,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h3>Categories</h3>
+                <h3>หมวดหมู่</h3>
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
