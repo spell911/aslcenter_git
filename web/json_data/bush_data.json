@@ -3,36 +3,48 @@
         "item_id": "bush_01",
         "item_name": "BUSH01", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     },
     {
         "item_id": "bush_02",
         "item_name": "BUSH02", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     },
     {
         "item_id": "bush_03",
         "item_name": "BUSH03", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     },
     {
         "item_id": "bush_04",
         "item_name": "BUSH04", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     },
     {
         "item_id": "bush_05",
         "item_name": "BUSH05", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     },
     {
         "item_id": "bush_06",
         "item_name": "BUSH06", 
         "item_img": "img/bush.jpg",
+        "item_plot": "img/plot_product/bush.jpg",
+        "item_tab": "img/table_product/bush.jpg",
         "item_detail": "Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C"
     }
 ]

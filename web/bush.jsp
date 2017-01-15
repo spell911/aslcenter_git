@@ -257,9 +257,28 @@
             </div>
             <div class="col-md-9">
                 <div id="product_view"></div>
+                <div id="modal_product"></div>
+                <!-- Modal -->
+                <div class="modal fade" id="modal_view" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="item_pic"></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- /.container -->
 <div class="container">

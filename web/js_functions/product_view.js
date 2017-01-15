@@ -6,7 +6,7 @@ $(document).ready(function get_bush() {
                 out += "<div id=\"" + data[i]['item_id'] + "\" class=\"col-xs-12 col-sm-6 col-md-4\" style=\"margin-top: 50px;\">" +
                         "<div class=\"col-item\">" +
                         "<div class=\"post-img-content\">" +
-                        "<img src=\"img/bush.jpg\" class=\"img-responsive\" />" +
+                        "<img src=\"" + data[i]['item_img'] + "\" class=\"img-responsive\" />" +
                         "</div>" +
                         "<div class=\"info\">" +
                         "<div class=\"row\">" +
@@ -15,8 +15,8 @@ $(document).ready(function get_bush() {
                         "</div>" +
                         "</div>" +
                         "<div class=\"separator clear-left\">" +
-                        "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a href=\"#\" class=\"hidden-sm\">พิมพ์เขียว</a></p>" +
-                        "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" class=\"hidden-sm\">ตาราง</a></p>" +
+                        "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('"+data[i]['item_plot']+"');\">พิมพ์เขียว</a></p>" +
+                        "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('"+data[i]['item_tab']+"');\">ตาราง</a></p>" +
                         "</div>" +
                         "<div class=\"clearfix\">" +
                         "</div>" +
@@ -40,7 +40,7 @@ function focus_item(v) {
                     out += "<div id=\"" + data[i]['item_id'] + "\" class=\"col-xs-12 col-sm-6 col-md-4\" style=\"margin-top: 50px;\">" +
                             "<div class=\"col-item\">" +
                             "<div class=\"post-img-content\">" +
-                            "<img src=\"img/bush.jpg\" class=\"img-responsive\" />" +
+                            "<img src=\"" + data[i]['item_img'] + "\" class=\"img-responsive\" />" +
                             "</div>" +
                             "<div class=\"info\">" +
                             "<div class=\"row\">" +
@@ -61,7 +61,7 @@ function focus_item(v) {
                     out += "<div id=\"" + data[i]['item_id'] + "\" class=\"col-xs-12 col-sm-6 col-md-4\" style=\"margin-top: 50px;\">" +
                             "<div class=\"col-item\">" +
                             "<div class=\"post-img-content\">" +
-                            "<img src=\"img/bush.jpg\" class=\"img-responsive\" />" +
+                            "<img src=\"" + data[i]['item_img'] + "\" class=\"img-responsive\" />" +
                             "</div>" +
                             "<div class=\"info\">" +
                             "<div class=\"row\">" +
@@ -85,4 +85,27 @@ function focus_item(v) {
     } catch (e) {
         alert("Error can not get Data" + e);
     }
+}
+
+function modal_view(v){
+    alert(v);
+    var out = "<img src=\"" + v + "\" class=\"img-responsive\" />";
+//var out = "<div class=\"modal fade\" id=\"modal_view\" role=\"dialog\">"+
+//        "<div class=\"modal-dialog modal-lg\">"+
+//        "<div class=\"modal-content\">"+
+//        "<div class=\"modal-header\">"+
+//        "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" > & times; < /button>"+
+//        "<h4 class=\"modal-title\" > Modal Header < /h4>"+
+//        "</div>"+
+//        "<div class=\"modal-body\">"+
+//        "<img src=\"" + v + "\" class=\"img-responsive\" />" +
+//        "</div>"+
+//        "<div class=\"modal-footer\">"+
+//        "<button type=\"button\" class=\"btn btn-default\" data-dismiss\=\"modal\"> Close </button>"+
+//        "</div>"+
+//        "</div>"+
+//        "</div>"+
+//        "</div>"+
+//        "</div>";
+    document.getElementById("item_pic").innerHTML = out;
 }
