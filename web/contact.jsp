@@ -60,7 +60,7 @@
                     <div class="row">
                         <div class="col-sm-12 col-lg-12" >
                             <h1 class="h1">
-                                ติดต่อเรา! <small> </small></h1>
+                                <small> </small></h1>
                         </div>
                     </div>
                 </div>
