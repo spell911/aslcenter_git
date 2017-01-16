@@ -56,15 +56,13 @@
     
     <div class="container">
         <div class="row">
-            
             <div class="col-md-10">
-               
                 <div class="row">
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="img\bush.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="categories.jsp">Bush</a>
+                                <h4><a href="bush.jsp">Bush</a>
                                 </h4>
                                 <p>Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C</p>
                             </div>

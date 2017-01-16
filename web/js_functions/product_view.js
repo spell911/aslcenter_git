@@ -1,4 +1,4 @@
-$(document).ready(function get_bush() {
+$(document).ready(function () {
     var out = "";
     try {
         $.getJSON('json_data/bush_data.json', function (data) {
@@ -10,13 +10,13 @@ $(document).ready(function get_bush() {
                         "</div>" +
                         "<div class=\"info\">" +
                         "<div class=\"row\">" +
-                        "<div class=\"price col-md-6\">" +
+                        "<div class=\"price col-md-9\">" +
                         "<h3> " + data[i]['item_name'] + "</h3>" +
                         "</div>" +
                         "</div>" +
                         "<div class=\"separator clear-left\">" +
-                        "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('"+data[i]['item_plot']+"');\">พิมพ์เขียว</a></p>" +
-                        "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('"+data[i]['item_tab']+"');\">ตาราง</a></p>" +
+                        "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
+                        "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
                         "</div>" +
                         "<div class=\"clearfix\">" +
                         "</div>" +
@@ -31,6 +31,11 @@ $(document).ready(function get_bush() {
     }
 });
 
+function local_index(x) {
+    window.location.href = "bush.jsp#";
+    focus_item(x);
+}
+
 function focus_item(v) {
     var out = "";
     try {
@@ -44,13 +49,13 @@ function focus_item(v) {
                             "</div>" +
                             "<div class=\"info\">" +
                             "<div class=\"row\">" +
-                            "<div class=\"price col-md-6\">" +
+                            "<div class=\"price col-md-9\">" +
                             "<h3> " + data[i]['item_name'] + "</h3>" +
                             "</div>" +
                             "</div>" +
                             "<div class=\"separator clear-left\">" +
-                            "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a href=\"#\" class=\"hidden-sm\">พิมพ์เขียว</a></p>" +
-                            "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" class=\"hidden-sm\">ตาราง</a></p>" +
+                            "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
+                            "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
                             "</div>" +
                             "<div class=\"clearfix\">" +
                             "</div>" +
@@ -65,13 +70,13 @@ function focus_item(v) {
                             "</div>" +
                             "<div class=\"info\">" +
                             "<div class=\"row\">" +
-                            "<div class=\"price col-md-6\">" +
+                            "<div class=\"price col-md-9\">" +
                             "<h3> " + data[i]['item_name'] + "</h3>" +
                             "</div>" +
                             "</div>" +
                             "<div class=\"separator clear-left\">" +
-                            "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a href=\"#\" class=\"hidden-sm\">พิมพ์เขียว</a></p>" +
-                            "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" class=\"hidden-sm\">ตาราง</a></p>" +
+                            "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
+                            "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
                             "</div>" +
                             "<div class=\"clearfix\">" +
                             "</div>" +
@@ -87,25 +92,10 @@ function focus_item(v) {
     }
 }
 
-function modal_view(v){
-    alert(v);
-    var out = "<img src=\"" + v + "\" class=\"img-responsive\" />";
-//var out = "<div class=\"modal fade\" id=\"modal_view\" role=\"dialog\">"+
-//        "<div class=\"modal-dialog modal-lg\">"+
-//        "<div class=\"modal-content\">"+
-//        "<div class=\"modal-header\">"+
-//        "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" > & times; < /button>"+
-//        "<h4 class=\"modal-title\" > Modal Header < /h4>"+
-//        "</div>"+
-//        "<div class=\"modal-body\">"+
-//        "<img src=\"" + v + "\" class=\"img-responsive\" />" +
-//        "</div>"+
-//        "<div class=\"modal-footer\">"+
-//        "<button type=\"button\" class=\"btn btn-default\" data-dismiss\=\"modal\"> Close </button>"+
-//        "</div>"+
-//        "</div>"+
-//        "</div>"+
-//        "</div>"+
-//        "</div>";
-    document.getElementById("item_pic").innerHTML = out;
+function modal_view(name, pic) {
+    var out_name = "<h4 class=\"modal-title\">" + name + "</h4>";
+    var out_pic = "<img src=\"" + pic + "\" class=\"img-responsive\" />";
+    document.getElementById("item_pic").innerHTML = out_pic;
+    document.getElementById("item_name").innerHTML = out_name;
 }
+

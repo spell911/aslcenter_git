@@ -69,17 +69,22 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <a href="#">Bush</a>
+                                            <a href="#" onclick="local_index('All');">All</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#">Grasier Bush</a>
+                                            <a href="#" onclick="local_index('bush_01');">Bush</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#">Sinter Bush</a>
+                                            <a href="#" onclick="local_index('bush_02');">Grasier Bush</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#" onclick="local_index('bush_03');">Sinter Bush</a>
                                         </td>
                                     </tr>
                                 </table>
@@ -274,7 +279,7 @@
                         <div class="thumbnail">
                             <img src="img\bush.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Bush</a>
+                                <h4><a href="bush.jsp">Bush</a>
                                 </h4>
                                 <p>Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C</p>
                             </div>
@@ -357,6 +362,7 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js_functions/product_view.js"></script>
 </body>
 
 </html>

@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">เกี่ยวกับเรา</a>
+                        <a href="about.jsp">เกี่ยวกับเรา</a>
                     </li>
                     <li>
                         <a href="products.jsp">ผลิตภัณฑ์</a>
@@ -75,27 +75,17 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#" onclick="focus_item('bush_01');">Bush_01</a>
+                                            <a href="#" onclick="focus_item('bush_01');">Bush</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#" onclick="focus_item('bush_02');">Bush_02</a>
+                                            <a href="#" onclick="focus_item('bush_02');">Grasier Bush</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#" onclick="focus_item('bush_03');">Bush_03</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="focus_item('bush_04');">Bush_04</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="focus_item('bush_05');">Bush_05</a>
+                                            <a href="#" onclick="focus_item('bush_03');">Sinter Bush</a>
                                         </td>
                                     </tr>
                                 </table>
@@ -264,7 +254,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Modal Header</h4>
+                                <div id="item_name"></div>
                             </div>
                             <div class="modal-body">
                                 <div id="item_pic"></div>
