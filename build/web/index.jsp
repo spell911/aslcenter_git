@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
+    <!-- Autocomplete CSS -->
+    <link href="css/jquery.auto-complete.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,6 +48,16 @@
                         <a href="contact.jsp">ติดต่อเรา</a>
                     </li>
                 </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" id="search_item" onkeypress="search_data();" >
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -60,116 +72,45 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bush">
-                                    </span>Bush</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_Bush" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="local_index('All');">All</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="local_index('bush_01');">Bush</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="local_index('bush_02');">Grasier Bush</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#" onclick="local_index('bush_03');">Sinter Bush</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_SlideShaft">
-                                    </span>Hard Chrome Bar</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_SlideShaft" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Hard Chrome Bar (S45C)</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Slide Shaft (SUJ 2) Hard Chrome Bar</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Ball">
-                                    </span>Ball</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_Ball" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Ball Retainer</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Ball Cage</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Flex - Coupling</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Precision Ground Ball Screw</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse_LmGuide">
-                                    </span>LM Guide</a>
+                                    </span>Linear Guide</a>
                             </h4>
                         </div>
-                        <div id="collapse_LmGuide" class="panel-collapse collapse">
+                        <div id="collapse_LmGuide" class="panel-collapse collapse panel-collapse collapse in">
                             <div class="panel-body">
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <a href="#">LM Guide</a>
+                                            <form id="LG_ALL" onsubmit="valid()" name="LG_ALL" action="linear.jsp" method="POST">
+                                                <input type="hidden" value="99" name="item_type">
+                                                <a href="javascript:void()" onclick="document.getElementById('LG_ALL').submit();">All</a>
+                                            </form>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="#">Self-Lubrucant Linear Guideway & Mimi Linear</a>
+                                            <form id="LBB" onsubmit="valid()" name="LBB" action="linear.jsp" method="POST">
+                                                <input type="hidden" value="LBB" name="item_type">
+                                                <a href="javascript:void()" onclick="document.getElementById('LBB').submit();">Linear Ball Bearing</a>
+                                            </form>
                                         </td>
                                     </tr>
-
+                                    <tr>
+                                        <td>
+                                            <form id="LBS" onsubmit="valid()" name="LBS" action="linear.jsp" method="POST">
+                                                <input type="hidden" value="LBS" name="item_type">
+                                                <a href="javascript:void()" onclick="document.getElementById('LBS').submit();">Linear Block & Shaft</a>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <form id="SLG" onsubmit="valid()" name="SLG" action="linear.jsp" method="POST">
+                                                <input type="hidden" value="SLG" name="item_type">
+                                                <a href="javascript:void()" onclick="document.getElementById('SLG').submit();">Shaft type Linear Guides</a>
+                                            </form>
+                                        </td>
+                                    </tr>
                                 </table>
                             </div>
                         </div>
@@ -218,31 +159,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse_RodEndBSearing">
-                                    </span>Universal</a>
-                            </h4>
-                        </div>
-                        <div id="collapse_RodEndBSearing" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <table class="table">
-                                    <tr>
-                                        <td>
-                                            <a href="#">Universal Joint</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">Universal Shaft</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-md-9">
@@ -279,7 +195,7 @@
                         <div class="thumbnail">
                             <img src="img\bush.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="bush.jsp">Bush</a>
+                                <h4><a href="bush.jsp" >Bush</a>
                                 </h4>
                                 <p>Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C</p>
                             </div>
@@ -289,7 +205,7 @@
                         <div class="thumbnail">
                             <img src="img\ground-ballscrews1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Precision Ground Ball Screw</a>
+                                <h4><a href="precision_ground.jsp">Precision Ground Ball Screw</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -301,9 +217,9 @@
                         <div class="thumbnail">
                             <img src="img\lmguide.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">LM Guide</a>
+                                <h4><a href="linear.jsp">Linear Guide</a>
                                 </h4>
-                                <p>LM Guide สำหรับงาน Slide ที่มีความเที่ยงตรงสูง แม่นยำ รับน้ำหนักมาก แรงเสียดทานต่ำ</p>
+                                <p>Linear Guide สำหรับงาน Slide ที่มีความเที่ยงตรงสูง แม่นยำ รับน้ำหนักมาก แรงเสียดทานต่ำ</p>
                             </div>
 
                         </div>
@@ -362,6 +278,9 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Autocomplete -->
+    <script src="js/jquery.auto-complete.js"></script>
+    <!-- Product view -->
     <script src="js_functions/product_view.js"></script>
 </body>
 

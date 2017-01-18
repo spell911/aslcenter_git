@@ -1,0 +1,290 @@
+[
+    {
+        "item_id": "KH",
+        "item_name": "KH",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/KH/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/KH/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/KH/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LM-AJ_Type",
+        "item_name": "LM (AJ Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LM(AJType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LM(AJType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LM(AJType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LM-OP_Type",
+        "item_name": "LM (OP Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LM(OPType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LM(OPType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LM(OPType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LM-Standard_Type",
+        "item_name": "LM (Standard Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LM(StandardType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LM(StandardType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LM(StandardType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LM...L",
+        "item_name": "LM...L",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LM...L/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LM...L/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LM...L/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMB-AJ_Type",
+        "item_name": "LMB (AJ Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMB(AJType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMB(AJType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMB(AJType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMB-Standard_Type",
+        "item_name": "LMB (Standard Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMB(StandardType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMB(StandardType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMB(StandardType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMB-OP_Type",
+        "item_name": "LMB (OP Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMB(OPType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMB(OPType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMB(OPType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LME-AJ_Type",
+        "item_name": "LME (AJ Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LME(AJType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LME(AJType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LME(AJType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LME-OP_Type",
+        "item_name": "LME (OP Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LME(OPType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LME(OPType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LME(OPType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LME-Standard_Type",
+        "item_name": "LME (Standard Type)",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LME(StandardType)/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LME(StandardType)/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LME(StandardType)/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMF",
+        "item_name": "LMF",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMF/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMF/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMF/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMF...L",
+        "item_name": "LMF...L",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMF...L/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMF...L/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMF...L/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMK",
+        "item_name": "LMK",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMK/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMK/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMK/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMK...L",
+        "item_name": "LMK...L",
+        "item_type": "LBB",
+        "item_img": "img/linear_ball_bearing/LMK...L/dis.JPG",
+        "item_plot": "img/linear_ball_bearing/LMK...L/p1.JPG",
+        "item_tab": "img/linear_ball_bearing/LMK...L/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "CRS",
+        "item_name": "CRS",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/CRS/dis.JPG",
+        "item_plot": "img/linear_block_shaft/CRS/p1.JPG",
+        "item_tab": "img/linear_block_shaft/CRS/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMA",
+        "item_name": "LMA",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/LMA/dis.JPG",
+        "item_plot": "img/linear_block_shaft/LMA/p1.JPG",
+        "item_tab": "img/linear_block_shaft/LMA/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMA...L",
+        "item_name": "LMA...L",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/LMA...L/dis.JPG",
+        "item_plot": "img/linear_block_shaft/LMA...L/p1.JPG",
+        "item_tab": "img/linear_block_shaft/LMA...L/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SA",
+        "item_name": "SA",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SA/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SA/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SA/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SCF",
+        "item_name": "SCF",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SCF/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SCF/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SCF/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SCNT",
+        "item_name": "SCNT",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SCNT/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SCNT/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SCNT/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SF",
+        "item_name": "SF",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SF/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SF/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SF/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SH...A",
+        "item_name": "SH...A",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SH...A/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SH...A/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SH...A/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SHF",
+        "item_name": "SHF",
+        "item_type": "LBS",
+        "item_img": "img/linear_block_shaft/SHF/dis.JPG",
+        "item_plot": "img/linear_block_shaft/SHF/p1.JPG",
+        "item_tab": "img/linear_block_shaft/SHF/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LGD",
+        "item_name": "LGD",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LGD/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LGD/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LGD/t1.jpg",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LGD12XL",
+        "item_name": "LGD 12 XL",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LGD12XL/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LGD12XL/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LGD12XL/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMC",
+        "item_name": "LMC",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LMC/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LMC/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LMC/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMC-C",
+        "item_name": "LMC-C",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LMC-C/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LMC-C/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LMC-C/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMC-L",
+        "item_name": "LMC-L",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LMC-L/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LMC-L/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LMC-L/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "LMCL-C",
+        "item_name": "LMCL-C",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/LMCL-C/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/LMCL-C/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/LMCL-C/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SA",
+        "item_name": "SA",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/SA/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/SA/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/SA/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "SCFB",
+        "item_name": "SCFB",
+        "item_type": "SLG",
+        "item_img": "img/shaft_type_linear_guides/SCFB/dis.JPG",
+        "item_plot": "img/shaft_type_linear_guides/SCFB/p1.JPG",
+        "item_tab": "img/shaft_type_linear_guides/SCFB/t1.JPG",
+        "item_detail": ""
+    }
+]
