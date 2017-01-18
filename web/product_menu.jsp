@@ -63,38 +63,136 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Slide Bearing</a>
+                                        <form id="Bearing_All" onsubmit="valid()" name="Bearing_All" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="Bearing_All" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('Bearing_All').submit();">ALL</a>
+                                        </form>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Slide Bearing (Flange Type)</a>
+                                        <form id="METRIC_SIZE" onsubmit="valid()" name="METRIC_SIZE" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="MS" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('METRIC_SIZE').submit();">Metric Size</a>
+                                        </form>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Slide Unit</a>
+                                        <form id="INCH_SIZE" onsubmit="valid()" name="INCH_SIZE" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="IS" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('INCH_SIZE').submit();">Inch Size</a>
+                                        </form>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Ball and Roller Bearing</a>
+                                        <form id="DRY_BEARING" onsubmit="valid()" name="DRY_BEARING" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="DB" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('DRY_BEARING').submit();">Dry Bearing</a>
+                                        </form>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Mounted Ball Bearing Unit</a>
+                                        <form id="BLB" onsubmit="valid()" name="BLB" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="BLB" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('BLB').submit();">Boundary Lubrucating Bearing</a>
+                                        </form>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Rod End Bearing Cam Follower</a>
+                                        <form id="IBB" onsubmit="valid()" name="IBB" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="IBB" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('IBB').submit();">Indent Bronze Bearing</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form id="BB" onsubmit="valid()" name="BB" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="BB" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('BB').submit();">Bimetal Bearing</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td>
+                                        <form id="OB" onsubmit="valid()" name="OB" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="OB" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('OB').submit();">Oilless Bearing Oilless Bushings</a>
+                                        </form>
                                     </td>
                                 </tr>
                             </table>
+
                         </div>
                     </div>
+                </div> <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Universal">
+                                </span>Universal</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_Universal" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <form id="Universal_All" onsubmit="valid()" name="Universal_All" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="Universal_All" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('Universal_All').submit();">ALL</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form id="Universal_Joint" onsubmit="valid()" name="Universal_Joint" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="UJ" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('Universal_Joint').submit();">Universal Joint</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <form id="Universal_Shaft" onsubmit="valid()" name="Universal_Shaft" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="US" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('Universal_Shaft').submit();">Universal Shaft</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                               
+                            </table>
+
+                        </div>
+
+                    </div>
+                    
                 </div>
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bellow">
+                                </span>Bellow</a>
+                        </h4>
+                    </div>
+                <div id="collapse_Bellow" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <form id="BELLOW" onsubmit="valid()" name="BELLOW" action="bush.jsp" method="POST">
+                                            <input type="hidden" value="BELLOW" name="item_type">
+                                            <a href="javascript:void()" onclick="document.getElementById('BELLOW').submit();">Bellow</a>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
         <div class="col-md-9">
