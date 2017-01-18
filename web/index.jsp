@@ -50,7 +50,7 @@
                 </ul>
                 <form class="navbar-form navbar-right">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" id="search_item" onkeypress="search_data();" >
+                        <input type="text" class="form-control" placeholder="Search" id="search_item" >
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit">
                                 <i class="glyphicon glyphicon-search"></i>
@@ -82,7 +82,7 @@
                                     <tr>
                                         <td>
                                             <form id="LG_ALL" onsubmit="valid()" name="LG_ALL" action="linear.jsp" method="POST">
-                                                <input type="hidden" value="99" name="item_type">
+                                                <input type="hidden" value="LG_ALL" name="item_type">
                                                 <a href="javascript:void()" onclick="document.getElementById('LG_ALL').submit();">All</a>
                                             </form>
                                         </td>
@@ -282,6 +282,8 @@
     <script src="js/jquery.auto-complete.js"></script>
     <!-- Product view -->
     <script src="js_functions/product_view.js"></script>
+    <script src="js_functions/index_func.js"></script>
+
 </body>
 
 </html>

@@ -18,7 +18,7 @@
                                 <tr>
                                     <td>
                                         <form id="LG_ALL" onsubmit="valid()" name="LG_ALL" action="linear.jsp" method="POST">
-                                            <input type="hidden" value="99" name="item_type">
+                                            <input type="hidden" value="LG_ALL" name="item_type">
                                             <a href="javascript:void()" onclick="document.getElementById('LG_ALL').submit();">All</a>
                                         </form>
                                     </td>
