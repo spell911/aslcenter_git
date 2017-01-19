@@ -839,5 +839,26 @@
         "item_tab": "img/universal/universal_shaft/t1.JPG",
         "item_detail": ""
     }
+    ,
+    {
+        "item_id": "BRBC",
+        "item_name": "Ball Retainer, Ball Cage",
+        "item_type": "BRBC",
+        "item_catalog": "BRBC",
+        "item_img": "img/ball_cage/dis.JPG",
+        "item_plot": "img/ball_cage/p1.JPG",
+        "item_tab": "img/ball_cage/t1.JPG",
+        "item_detail": ""
+    },
+    {
+        "item_id": "PGBS",
+        "item_name": "Precision Ground Ball Screw",
+        "item_type": "PGBS",
+        "item_catalog": "PGBS",
+        "item_img": "img/precision_gorund/dis.JPG",
+        "item_plot": "img/precision_gorund/p1.JPG",
+        "item_tab": "img/precision_gorund/t1.JPG",
+        "item_detail": ""
+    }
 
 ]

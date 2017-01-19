@@ -62,9 +62,9 @@
         <!-- /.container -->
     </nav>
     <!-- Page Content -->
-    <div class="col-md-3"></div>
+    
 
-    <div class="container">
+    <div class="container"><div class="col-md-3"></div>
         <div class="row">
             <div class="col-md-10">
                 <div class="row">
@@ -72,7 +72,7 @@
                         <div class="thumbnail">
                             <img src="img\bush.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="bush.jsp">Bush</a>
+                                <h4><a href="bearing.jsp" >Bush</a>
                                 </h4>
                                 <p>Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C</p>
                             </div>
@@ -82,7 +82,7 @@
                         <div class="thumbnail">
                             <img src="img\ground-ballscrews1.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Precision Ground Ball Screw</a>
+                                <h4><a href="precision_ground.jsp">Precision Ground Ball Screw</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -94,9 +94,9 @@
                         <div class="thumbnail">
                             <img src="img\lmguide.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">LM Guide</a>
+                                <h4><a href="linear.jsp">Linear Guide</a>
                                 </h4>
-                                <p>LM Guide สำหรับงาน Slide ที่มีความเที่ยงตรงสูง แม่นยำ รับน้ำหนักมาก แรงเสียดทานต่ำ</p>
+                                <p>Linear Guide สำหรับงาน Slide ที่มีความเที่ยงตรงสูง แม่นยำ รับน้ำหนักมาก แรงเสียดทานต่ำ</p>
                             </div>
 
                         </div>
@@ -105,7 +105,7 @@
                         <div class="thumbnail">
                             <img src="img\slidebearing.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Slide Bearing</a>
+                                <h4><a href="bearing.jsp">Slide Bearing</a>
                                 </h4>
                                 <p>มีหน้าแปลนให้เลือกใช้งานได้หลายแบบ เช่น กลม, กลมตัดข้าง และแบบลูกปืนพร้อมเสื้อ ที่สะดวกที่จะนำไปใช้งาน</p>
                             </div>
@@ -114,9 +114,9 @@
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="img\slide_sharft.jpg" alt="">
+                            <img src="img\universal.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Slide Shaft</a>
+                                <h4><a href="universal.jsp">Universal</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -125,9 +125,9 @@
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="img\Rodend.jpg" alt="">
+                            <img src="img\toe-lift.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Rod End Bearing</a>
+                                <h4><a href="toe_lift.jsp">TOE-Lift Jack</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -136,31 +136,9 @@
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="img\slidebearing.jpg" alt="">
+                            <img src="img\bellow.jpg" alt="">
                             <div class="caption">
-                                <h4><a href="#">Slide Bearing</a>
-                                </h4>
-                                <p>มีหน้าแปลนให้เลือกใช้งานได้หลายแบบ เช่น กลม, กลมตัดข้าง และแบบลูกปืนพร้อมเสื้อ ที่สะดวกที่จะนำไปใช้งาน</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="img\slide_sharft.jpg" alt="">
-                            <div class="caption">
-                                <h4><a href="#">Slide Shaft</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="img\Rodend.jpg" alt="">
-                            <div class="caption">
-                                <h4><a href="#">Rod End Bearing</a>
+                                <h4><a href="bellow.jsp">Bellow</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
