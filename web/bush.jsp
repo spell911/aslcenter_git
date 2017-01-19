@@ -73,6 +73,7 @@
 <script src="js/bootstrap.min.js"></script>
 <!--view js-->
 <script src="js_functions/product_view.js"></script>
+<script src="js_functions/product_menu.js"></script>
 </body>
 
 </html>

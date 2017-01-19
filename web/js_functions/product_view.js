@@ -1,10 +1,13 @@
 $(document).ready(function () {
     var out = "";
     var item_type = document.getElementById("item_type").value;
-        try {
-            $.getJSON('json_data/product_data.json', function (data) {
-                for (var i = 0; i < data.length; i++) {
-                    if (item_type === data[i]['item_type'] && item_type!=="null") {
+    var item_catalog = document.getElementById("item_catalog").value;
+    alert(item_type + " - " + item_catalog);
+    try {
+        $.getJSON('json_data/product_data.json', function (data) {
+            for (var i = 0; i < data.length; i++) {
+                if (item_type !== "ALL") {
+                    if (item_type === data[i]['item_type']) {
                         out += "<div id=\"" + data[i]['item_id'] + "\" class=\"col-xs-12 col-sm-6 col-md-4\" style=\"margin-top: 50px;\">" +
                                 "<div class=\"col-item\">" +
                                 "<div class=\"post-img-content\">" +
@@ -26,7 +29,9 @@ $(document).ready(function () {
                                 "</div>" +
                                 "</div>" +
                                 "</div>";
-                    } else if (item_type === "LG_ALL" || item_type === "null") {
+                    }
+                } else {
+                    if (item_catalog === data[i]['item_catalog']) {
                         out += "<div id=\"" + data[i]['item_id'] + "\" class=\"col-xs-12 col-sm-6 col-md-4\" style=\"margin-top: 50px;\">" +
                                 "<div class=\"col-item\">" +
                                 "<div class=\"post-img-content\">" +
@@ -50,11 +55,12 @@ $(document).ready(function () {
                                 "</div>";
                     }
                 }
-                document.getElementById("product_view").innerHTML = out;
-            });
-        } catch (e) {
-            alert("Error can not get Data" + e);
-        }
+            }
+            document.getElementById("product_view").innerHTML = out;
+        });
+    } catch (e) {
+        alert("Error can not get Data" + e);
+    }
 });
 
 

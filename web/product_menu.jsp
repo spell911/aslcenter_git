@@ -3,6 +3,7 @@
     <div class="row">
         <div class="col-md-3">
             <input type="hidden" id="item_type" value="<%= request.getParameter("item_type")%>">
+            <input type="hidden" id="item_catalog" value="<%= request.getParameter("item_catalog")%>">
             <h3>หมวดหมู่</h3>
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
@@ -117,7 +118,7 @@
                                         </form>
                                     </td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <td>
                                         <form id="OB" onsubmit="valid()" name="OB" action="bush.jsp" method="POST">
                                             <input type="hidden" value="OB" name="item_type">
@@ -126,96 +127,97 @@
                                     </td>
                                 </tr>
                             </table>
-
                         </div>
                     </div>
-                </div> <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Universal">
-                                </span>Universal</a>
-                        </h4>
-                    </div>
-                    <div id="collapse_Universal" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <form id="Universal_All" onsubmit="valid()" name="Universal_All" action="bush.jsp" method="POST">
-                                            <input type="hidden" value="Universal_All" name="item_type">
-                                            <a href="javascript:void()" onclick="document.getElementById('Universal_All').submit();">ALL</a>
-                                        </form>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <form id="Universal_Joint" onsubmit="valid()" name="Universal_Joint" action="bush.jsp" method="POST">
-                                            <input type="hidden" value="UJ" name="item_type">
-                                            <a href="javascript:void()" onclick="document.getElementById('Universal_Joint').submit();">Universal Joint</a>
-                                        </form>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <form id="Universal_Shaft" onsubmit="valid()" name="Universal_Shaft" action="bush.jsp" method="POST">
-                                            <input type="hidden" value="US" name="item_type">
-                                            <a href="javascript:void()" onclick="document.getElementById('Universal_Shaft').submit();">Universal Shaft</a>
-                                        </form>
-                                    </td>
-                                </tr>
-                               
-                            </table>
-
-                        </div>
-
-                    </div>
-                    
                 </div>
-                <div class="panel panel-default">
-                        <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bellow">
-                                </span>Bellow</a>
-                        </h4>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Universal">
+                            </span>Universal</a>
+                    </h4>
+                </div>
+                <div id="collapse_Universal" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <form id="Universal_All" onsubmit="valid()" name="Universal_All" action="bush.jsp" method="POST">
+                                        <input type="hidden" value="Universal_All" name="item_type">
+                                        <a href="javascript:void()" onclick="document.getElementById('Universal_All').submit();">ALL</a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form id="Universal_Joint" onsubmit="valid()" name="Universal_Joint" action="bush.jsp" method="POST">
+                                        <input type="hidden" value="UJ" name="item_type">
+                                        <a href="javascript:void()" onclick="document.getElementById('Universal_Joint').submit();">Universal Joint</a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form id="Universal_Shaft" onsubmit="valid()" name="Universal_Shaft" action="bush.jsp" method="POST">
+                                        <input type="hidden" value="US" name="item_type">
+                                        <a href="javascript:void()" onclick="document.getElementById('Universal_Shaft').submit();">Universal Shaft</a>
+                                    </form>
+                                </td>
+                            </tr>
+
+                        </table>
+
                     </div>
+
+                </div>
+
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse_Bellow">
+                            </span>Bellow</a>
+                    </h4>
+                </div>
                 <div id="collapse_Bellow" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            <table class="table">
-                                <tr>
-                                    <td>
-                                        <form id="BELLOW" onsubmit="valid()" name="BELLOW" action="bush.jsp" method="POST">
-                                            <input type="hidden" value="BELLOW" name="item_type">
-                                            <a href="javascript:void()" onclick="document.getElementById('BELLOW').submit();">Bellow</a>
-                                        </form>
-                                    </td>
-                                </tr>
-                            </table>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <form id="BELLOW" onsubmit="valid()" name="BELLOW" action="bush.jsp" method="POST">
+                                        <input type="hidden" value="BELLOW" name="item_type">
+                                        <a href="javascript:void()" onclick="document.getElementById('BELLOW').submit();">Bellow</a>
+                                    </form>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <div id="product_view"></div>
-            <div id="modal_product"></div>
-            <!-- Modal -->
-            <div class="modal fade" id="modal_view" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <div id="item_name"></div>
-                        </div>
-                        <div class="modal-body">
-                            <div id="item_pic"></div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+    </div>
+    <div class="col-md-9">
+        <div id="product_view"></div>
+        <div id="modal_product"></div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal_view" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div id="item_name"></div>
+                    </div>
+                    <div class="modal-body">
+                        <div id="item_pic"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</div>
+<script src="js_functions/product_menu.js"></script>
 
