@@ -20,7 +20,6 @@ function send_mail() {
     var subject = e.options[e.selectedIndex].value;
     var body = document.getElementById("name").value + " - " + document.getElementById("message").value;
     var email = document.getElementById("email").value;
-    alert(subject + body + email);
     try {
         window.open('mailto:alscenter99@gmail.com?subject=' + subject + '&body=' + body);
     } catch (e) {

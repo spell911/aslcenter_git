@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
+    <!-- Autocomplete CSS -->
+    <link href="css/jquery.auto-complete.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,9 +48,9 @@
                         <a href="contact.jsp">ติดต่อเรา</a>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-right">
+                <form class="navbar-form navbar-right" name="Search" action="search.jsp" method="POST">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" id="search_item" >
+                        <input type="text" class="form-control" placeholder="Search" name="search_item" id="search_item">
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit">
                                 <i class="glyphicon glyphicon-search"></i>
@@ -62,7 +64,7 @@
         <!-- /.container -->
     </nav>
     <!-- Page Content -->
-    
+
 
     <div class="container"><div class="col-md-3"></div>
         <div class="row">
@@ -165,8 +167,11 @@
 <!-- /.container -->
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<!-- Autocomplete -->
+<script src="js/jquery.auto-complete.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js_functions/autocom_func.js"></script>
 </body>
 
 </html>

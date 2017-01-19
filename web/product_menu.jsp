@@ -4,6 +4,7 @@
         <div class="col-md-3">
             <input type="hidden" id="item_type" value="<%= request.getParameter("item_type")%>">
             <input type="hidden" id="item_catalog" value="<%= request.getParameter("item_catalog")%>">
+            <input type="hidden" id="item_name" value="<%= request.getParameter("search_item")%>">
             <h3>หมวดหมู่</h3>
             <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
@@ -13,7 +14,7 @@
                                     </span>Linear Guide</a>
                             </h4>   
                         </div>
-                        <div id="collapse_LmGuide" class="panel-collapse collapse">
+                        <div id="collapse_LmGuide" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <table class="table">
                                     <tr>
