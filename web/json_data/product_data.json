@@ -601,7 +601,7 @@
     },
     {
         "item_id": "LXP",
-        "item_name": "LB7B",
+        "item_name": "LXP",
         "item_type": "BLB",
         "item_catalog": "BE",
         "item_img": "img/boundarry_bubrucating_bearings/LXP/dis.JPG",
@@ -822,7 +822,7 @@
     {
         "item_id": "UJ",
         "item_name": "Universal Joint",
-        "item_type": "Universal",
+        "item_type": "UNJ",
         "item_catalog": "UN",
         "item_img": "img/universal/universal_joint/dis.JPG",
         "item_plot": "img/universal/universal_joint/p1.JPG",
@@ -832,7 +832,7 @@
     {
         "item_id": "USH",
         "item_name": "Universal Shaft",
-        "item_type": "Universal",
+        "item_type": "UNS",
         "item_catalog": "UN",
         "item_img": "img/universal/universal_shaft/dis.JPG",
         "item_plot": "img/universal/universal_shaft/p1.JPG",
@@ -844,7 +844,7 @@
         "item_id": "BRBC",
         "item_name": "Ball Retainer, Ball Cage",
         "item_type": "BRBC",
-        "item_catalog": "BRBC",
+        "item_catalog": "BBC",
         "item_img": "img/ball_cage/dis.JPG",
         "item_plot": "img/ball_cage/p1.JPG",
         "item_tab": "img/ball_cage/t1.JPG",
