@@ -18,7 +18,7 @@
                         <a href="about.jsp">เกี่ยวกับเรา</a>
                     </li>
                     <li>
-                        <a href="products.jsp">ผลิตภัณฑ์</a>
+                        <a href="products.jsp">สิ้นค้า</a>
                     </li>
                     <li>
                         <a href="contact.jsp">ติดต่อเรา</a>
@@ -26,7 +26,7 @@
                 </ul>
                 <form class="navbar-form navbar-right" name="Search" action="search.jsp" method="POST">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" name="search_item" id="search_item">
+                        <input type="text" class="form-control" placeholder="ค้นหาสินค้า" name="search_item" id="search_item" >
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit">
                                 <i class="glyphicon glyphicon-search"></i>

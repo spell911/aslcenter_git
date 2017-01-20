@@ -22,8 +22,8 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "</div>" +
                                 "<div class=\"separator clear-left\">" +
-                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
-                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
+                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">Dimension</a></p>" +
+                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">Detail</a></p>" +
                                 "</div>" +
                                 "<div class=\"clearfix\">" +
                                 "</div>" +
@@ -46,8 +46,8 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "</div>" +
                                 "<div class=\"separator clear-left\">" +
-                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
-                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
+                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">Dimension</a></p>" +
+                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">Detail</a></p>" +
                                 "</div>" +
                                 "<div class=\"clearfix\">" +
                                 "</div>" +
@@ -69,8 +69,8 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "</div>" +
                                 "<div class=\"separator clear-left\">" +
-                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">พิมพ์เขียว</a></p>" +
-                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">ตาราง</a></p>" +
+                                "<p class=\"btn-add\"><i class=\"glyphicon glyphicon-picture\"></i><a type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" href=\"#\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_plot'] + "');\">Dimension</a></p>" +
+                                "<p class=\"btn-details\"><i class=\"glyphicon glyphicon-list\"></i><a href=\"#\" type=\"button\" data-toggle=\"modal\" data-target=\"#modal_view\" class=\"hidden-sm\" onclick=\"modal_view('" + data[i]['item_name'] + "','" + data[i]['item_tab'] + "');\">Detail</a></p>" +
                                 "</div>" +
                                 "<div class=\"clearfix\">" +
                                 "</div>" +
@@ -86,13 +86,11 @@ $(document).ready(function get_Data() {
         alert("Error can not get Data" + e);
     }
 });
-
-
 function modal_view(name, pic) {
-    var out_name = "<h4 class=\"modal-title\">" + name + "</h4>";
+    var out_name = "<h4 class=\"modal-title\">"+"สินค้า - " + name + "</h4>";
     var out_pic = "<img src=\"" + pic + "\" class=\"img-responsive\" />";
-    document.getElementById("item_pic").innerHTML = out_pic;
-    document.getElementById("item_name").innerHTML = out_name;
+    document.getElementById("item_pic_modal").innerHTML = out_pic;
+    document.getElementById("item_name_modal").innerHTML = out_name;
 }
 $('#search_item').bind("enterKey", function (e) {
     get_Data();

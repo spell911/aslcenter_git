@@ -48,7 +48,7 @@
                         <a href="about.jsp">เกี่ยวกับเรา</a>
                     </li>
                     <li>
-                        <a href="products.jsp">ผลิตภัณฑ์</a>
+                        <a href="products.jsp">สิ้นค้า</a>
                     </li>
                     <li>
                         <a href="contact.jsp">ติดต่อเรา</a>

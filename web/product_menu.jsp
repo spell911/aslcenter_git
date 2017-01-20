@@ -333,7 +333,6 @@
                         </div>
                     </div>
                 </div>
-            
         </div>
         <div class="col-md-9">
             <div id="product_view"></div>
@@ -344,10 +343,10 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <div id="item_name"></div>
+                            <div id="item_name_modal"></div>
                         </div>
                         <div class="modal-body">
-                            <div id="item_pic"></div>
+                            <div id="item_pic_modal"></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -232,13 +232,9 @@
                                             </form>
                                         </td>
                                     </tr>
-
                                 </table>
-
                             </div>
-
                         </div>
-
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -278,7 +274,6 @@
                                             <form id="AGL" onsubmit="valid()" name="AGL" action="lubricator.jsp" method="POST">
                                                 <input type="hidden" value="AGL" name="item_type">
                                                 <input type="hidden" value="AU" name="item_catalog">
-
                                                 <a href="javascript:void()" onclick="document.getElementById('AGL').submit();">Auto Grease Lubricator</a>
                                             </form>
                                         </td>
@@ -391,38 +386,6 @@
                 <div class="row">
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="img\bush.jpg" alt="">
-                            <div class="caption">
-                                <form id="Bush" onsubmit="valid()" name="Bush" action="bearing.jsp" method="POST">
-                                    <input type="hidden" value="MS" name="item_type">
-                                    <input type="hidden" value="BE" name="item_catalog">
-                                    <h4>
-                                        <a href="javascript:void()" onclick="document.getElementById('Bush').submit();">Bush</a>   
-                                    </h4>
-                                </form>
-                                <p>Bush ฝังกราไฟท์ ทนแรงกระแทกและการสึกกร่อนได้ดี ทนอุณหภูมิได้ 300°C</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="img\ground-ballscrews1.jpg" alt="">
-                            <div class="caption">
-                                <form id="Precision" onsubmit="valid()" name="Precision" action="precision_ground.jsp" method="POST">
-                                    <input type="hidden" value="PGBS" name="item_type">
-                                    <input type="hidden" value="PGBS" name="item_catalog">
-                                    <h4>
-                                        <a href="javascript:void()" onclick="document.getElementById('Precision').submit();">Precision Ground Ball Screw</a>   
-                                    </h4>
-                                </form>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
                             <img src="img\lmguide.jpg" alt="">
                             <div class="caption">
                                 <form id="LM_Guide" onsubmit="valid()" name="LM_Guide" action="linear.jsp" method="POST">
@@ -434,23 +397,21 @@
                                 </form>
                                 <p>Linear Guide สำหรับงาน Slide ที่มีความเที่ยงตรงสูง แม่นยำ รับน้ำหนักมาก แรงเสียดทานต่ำ</p>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="img\slidebearing.jpg" alt="">
                             <div class="caption">
-                                <form id="Slide_Bearing" onsubmit="valid()" name="Slide_Bearing" action="linear.jsp" method="POST">
+                                <form id="Slide_Bearing" onsubmit="valid()" name="Slide_Bearing" action="bearing.jsp" method="POST">
                                     <input type="hidden" value="LBB" name="item_type">
                                     <input type="hidden" value="LI" name="item_catalog">
                                     <h4>
-                                        <a href="javascript:void()" onclick="document.getElementById('Slide_Bearing').submit();">Slide Bearing</a>   
+                                        <a href="javascript:void()" onclick="document.getElementById('Slide_Bearing').submit();">Bearing</a>   
                                     </h4>
                                 </form>
                                 <p>มีหน้าแปลนให้เลือกใช้งานได้หลายแบบ เช่น กลม, กลมตัดข้าง และแบบลูกปืนพร้อมเสื้อ ที่สะดวกที่จะนำไปใช้งาน</p>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -466,7 +427,21 @@
                                 </form>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img\bellow.jpg" alt="">
+                            <div class="caption">
+                                <form id="Bellow" onsubmit="valid()" name="Precision" action="bellow.jsp" method="POST">
+                                    <input type="hidden" value="BELLOW" name="item_type">
+                                    <input type="hidden" value="BEL" name="item_catalog">
+                                    <h4>
+                                        <a href="javascript:void()" onclick="document.getElementById('Bellow').submit();">Bellow</a>   
+                                    </h4>
+                                </form>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-4 col-md-4">
@@ -482,7 +457,21 @@
                                 </form>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img\ground-ballscrews1.jpg" alt="">
+                            <div class="caption">
+                                <form id="Precision" onsubmit="valid()" name="Precision" action="precision_ground.jsp" method="POST">
+                                    <input type="hidden" value="PGBS" name="item_type">
+                                    <input type="hidden" value="PGBS" name="item_catalog">
+                                    <h4>
+                                        <a href="javascript:void()" onclick="document.getElementById('Precision').submit();">Precision Ground Ball Screw</a>   
+                                    </h4>
+                                </form>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
