@@ -498,7 +498,6 @@
     <!-- Autocomplete -->
     <script src="js/jquery.auto-complete.js"></script>
     <!-- Product view -->
-    <script src="js_functions/product_view.js"></script>
     <script src="js_functions/autocom_func.js"></script>
 </body>
 
