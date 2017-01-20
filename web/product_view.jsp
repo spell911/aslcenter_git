@@ -1,3 +1,8 @@
+<%-- 
+    Document   : product_view
+    Created on : Jan 20, 2017, 10:46:46 PM
+    Author     : Khun_Phichz
+--%>
 <!DOCTYPE html>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <head>
@@ -21,10 +26,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
     <!-- Navigation -->
-   <jsp:include page="navbar.jsp" />
+    <jsp:include page="navbar.jsp" />
     <!-- Page Content -->
     <jsp:include page="product_menu.jsp" />
     <!-- /.container -->
@@ -51,5 +55,5 @@
     <script src="js_functions/product_menu.js"></script>
     <script src="js_functions/autocom_func.js"></script>
 </body>
-
 </html>
+

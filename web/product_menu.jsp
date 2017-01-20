@@ -19,7 +19,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="LG_ALL" onsubmit="valid()" name="LG_ALL" action="linear.jsp" method="POST">
+                                            <form id="LG_ALL" onsubmit="valid()" name="LG_ALL" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="ALL" name="item_type">
                                                 <input type="hidden" value="LI" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('LG_ALL').submit();">All</a>
@@ -28,7 +28,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="LBB" onsubmit="valid()" name="LBB" action="linear.jsp" method="POST">
+                                            <form id="LBB" onsubmit="valid()" name="LBB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="LBB" name="item_type">
                                                 <input type="hidden" value="LI" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('LBB').submit();">Linear Ball Bearing</a>
@@ -37,7 +37,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="LBS" onsubmit="valid()" name="LBS" action="linear.jsp" method="POST">
+                                            <form id="LBS" onsubmit="valid()" name="LBS" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="LBS" name="item_type">
                                                 <input type="hidden" value="LI" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('LBS').submit();">Linear Block & Shaft</a>
@@ -46,7 +46,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="SLG" onsubmit="valid()" name="SLG" action="linear.jsp" method="POST">
+                                            <form id="SLG" onsubmit="valid()" name="SLG" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="SLG" name="item_type">
                                                 <input type="hidden" value="LI" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('SLG').submit();">Shaft type Linear Guides</a>
@@ -69,7 +69,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="Bearing_All" onsubmit="valid()" name="Bearing_All" action="bearing.jsp" method="POST">
+                                            <form id="Bearing_All" onsubmit="valid()" name="Bearing_All" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="ALL" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Bearing_All').submit();">ALL</a>
@@ -78,7 +78,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="METRIC_SIZE" onsubmit="valid()" name="METRIC_SIZE" action="bearing.jsp" method="POST">
+                                            <form id="METRIC_SIZE" onsubmit="valid()" name="METRIC_SIZE" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="MS" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('METRIC_SIZE').submit();">Metric Size</a>
@@ -87,7 +87,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="INCH_SIZE" onsubmit="valid()" name="INCH_SIZE" action="bearing.jsp" method="POST">
+                                            <form id="INCH_SIZE" onsubmit="valid()" name="INCH_SIZE" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="IS" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('INCH_SIZE').submit();">Inch Size</a>
@@ -96,7 +96,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="DRY_BEARING" onsubmit="valid()" name="DRY_BEARING" action="bearing.jsp" method="POST">
+                                            <form id="DRY_BEARING" onsubmit="valid()" name="DRY_BEARING" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="DB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('DRY_BEARING').submit();">Dry Bearing</a>
@@ -105,7 +105,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="BLB" onsubmit="valid()" name="BLB" action="bearing.jsp" method="POST">
+                                            <form id="BLB" onsubmit="valid()" name="BLB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="BLB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('BLB').submit();">Boundary Lubrucating Bearing</a>
@@ -114,7 +114,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="IBB" onsubmit="valid()" name="IBB" action="bearing.jsp" method="POST">
+                                            <form id="IBB" onsubmit="valid()" name="IBB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="IBB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('IBB').submit();">Indent Bronze Bearing</a>
@@ -123,7 +123,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="BB" onsubmit="valid()" name="BB" action="bearing.jsp" method="POST">
+                                            <form id="BB" onsubmit="valid()" name="BB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="BB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('BB').submit();">Bimetal Bearing</a>
@@ -132,7 +132,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="OB" onsubmit="valid()" name="OB" action="bearing.jsp" method="POST">
+                                            <form id="OB" onsubmit="valid()" name="OB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="OB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('OB').submit();">Oilless Bearing Oilless Bushings</a>
@@ -141,7 +141,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="MBBU" onsubmit="valid()" name="MBBU" action="bearing.jsp" method="POST">
+                                            <form id="MBBU" onsubmit="valid()" name="MBBU" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="MBBU" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('MBBU').submit();">Mounted Ball Bearing Unit</a>
@@ -150,7 +150,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="BNRB" onsubmit="valid()" name="BNRB" action="bearing.jsp" method="POST">
+                                            <form id="BNRB" onsubmit="valid()" name="BNRB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="BNRB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('BNRB').submit();">Ball and Roller Bearing</a>
@@ -159,7 +159,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="REB" onsubmit="valid()" name="REB" action="bearing.jsp" method="POST">
+                                            <form id="REB" onsubmit="valid()" name="REB" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="REB" name="item_type">
                                                 <input type="hidden" value="BE" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('REB').submit();">Rod End Bearing Cam Follower</a>
@@ -182,7 +182,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="Universal_All" onsubmit="valid()" name="Universal_All" action="universal.jsp" method="POST">
+                                            <form id="Universal_All" onsubmit="valid()" name="Universal_All" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="ALL" name="item_type">
                                                 <input type="hidden" value="UN" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Universal_All').submit();">ALL</a>
@@ -191,7 +191,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="Universal_Joint" onsubmit="valid()" name="Universal_Joint" action="universal.jsp" method="POST">
+                                            <form id="Universal_Joint" onsubmit="valid()" name="Universal_Joint" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="UNJ" name="item_type">
                                                 <input type="hidden" value="UN" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Universal_Joint').submit();">Universal Joint</a>
@@ -200,7 +200,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <form id="Universal_Shaft" onsubmit="valid()" name="Universal_Shaft" action="universal.jsp" method="POST">
+                                            <form id="Universal_Shaft" onsubmit="valid()" name="Universal_Shaft" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="UNS" name="item_type">
                                                 <input type="hidden" value="UN" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Universal_Shaft').submit();">Universal Shaft</a>
@@ -227,7 +227,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="BELLOW" onsubmit="valid()" name="BELLOW" action="bellow.jsp" method="POST">
+                                            <form id="BELLOW" onsubmit="valid()" name="BELLOW" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="BELLOW" name="item_type">
                                                 <input type="hidden" value="BEL" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('BELLOW').submit();">Bellow</a>
@@ -250,7 +250,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="AGL" onsubmit="valid()" name="AGL" action="lubricator.jsp" method="POST">
+                                            <form id="AGL" onsubmit="valid()" name="AGL" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="AGL" name="item_type">
                                                 <input type="hidden" value="AU" name="item_catalog">
 
@@ -274,7 +274,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="TOE_Lift" onsubmit="valid()" name="TOE_Lift" action="toe_lift.jsp" method="POST">
+                                            <form id="TOE_Lift" onsubmit="valid()" name="TOE_Lift" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="TOE_Lift" name="item_type">
                                                 <input type="hidden" value="TO" name="item_catalog">
 
@@ -298,7 +298,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="Ball_Retainer" onsubmit="valid()" name="Ball_Retainer" action="ball_retainer.jsp" method="POST">
+                                            <form id="Ball_Retainer" onsubmit="valid()" name="Ball_Retainer" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="BRBC" name="item_type">
                                                 <input type="hidden" value="BBC" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Ball_Retainer').submit();">Ball Retainer, Ball Cage</a>
@@ -321,7 +321,7 @@
                                 <table class="table">
                                     <tr>
                                         <td>
-                                            <form id="Precision_Ground" onsubmit="valid()" name="Precision_Ground" action="precision_ground.jsp" method="POST">
+                                            <form id="Precision_Ground" onsubmit="valid()" name="Precision_Ground" action="product_view.jsp" method="POST">
                                                 <input type="hidden" value="PGBS" name="item_type">
                                                 <input type="hidden" value="PGBS" name="item_catalog">
                                                 <a href="javascript:void()" onclick="document.getElementById('Precision_Ground').submit();">Precision Ground Ball Screw</a>

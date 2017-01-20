@@ -33,7 +33,7 @@
                         <div class="thumbnail">
                             <img src="img\lmguide.jpg" alt="">
                             <div class="caption">
-                                <form id="LM_Guide" onsubmit="valid()" name="LM_Guide" action="linear.jsp" method="POST">
+                                <form id="LM_Guide" onsubmit="valid()" name="LM_Guide" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="ALL" name="item_type">
                                     <input type="hidden" value="LI" name="item_catalog">
                                     <h4>
@@ -48,9 +48,9 @@
                         <div class="thumbnail">
                             <img src="img\slidebearing.jpg" alt="">
                             <div class="caption">
-                                <form id="Slide_Bearing" onsubmit="valid()" name="Slide_Bearing" action="bearing.jsp" method="POST">
-                                    <input type="hidden" value="LBB" name="item_type">
-                                    <input type="hidden" value="LI" name="item_catalog">
+                                <form id="Slide_Bearing" onsubmit="valid()" name="Slide_Bearing" action="product_view.jsp" method="POST">
+                                    <input type="hidden" value="ALL" name="item_type">
+                                    <input type="hidden" value="BE" name="item_catalog">
                                     <h4>
                                         <a href="javascript:void()" onclick="document.getElementById('Slide_Bearing').submit();">Bearing</a>   
                                     </h4>
@@ -63,7 +63,7 @@
                         <div class="thumbnail">
                             <img src="img\universal.jpg" alt="">
                             <div class="caption">
-                                <form id="Universal" onsubmit="valid()" name="Universal" action="universal.jsp" method="POST">
+                                <form id="Universal" onsubmit="valid()" name="Universal" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="ALL" name="item_type">
                                     <input type="hidden" value="UN" name="item_catalog">
                                     <h4>
@@ -78,7 +78,7 @@
                         <div class="thumbnail">
                             <img src="img\bellow.jpg" alt="">
                             <div class="caption">
-                                <form id="Bellow" onsubmit="valid()" name="Precision" action="bellow.jsp" method="POST">
+                                <form id="Bellow" onsubmit="valid()" name="Precision" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="BELLOW" name="item_type">
                                     <input type="hidden" value="BEL" name="item_catalog">
                                     <h4>
@@ -94,7 +94,7 @@
                         <div class="thumbnail">
                             <img src="img\toe-lift.jpg" alt="">
                             <div class="caption">
-                                <form id="TOE" onsubmit="valid()" name="TOE" action="toe_lift.jsp" method="POST">
+                                <form id="TOE" onsubmit="valid()" name="TOE" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="TOE_Lift" name="item_type">
                                     <input type="hidden" value="TO" name="item_catalog">
                                     <h4>
@@ -109,7 +109,7 @@
                         <div class="thumbnail">
                             <img src="img\ground-ballscrews1.jpg" alt="">
                             <div class="caption">
-                                <form id="Precision" onsubmit="valid()" name="Precision" action="precision_ground.jsp" method="POST">
+                                <form id="Precision" onsubmit="valid()" name="Precision" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="PGBS" name="item_type">
                                     <input type="hidden" value="PGBS" name="item_catalog">
                                     <h4>
@@ -124,7 +124,7 @@
                         <div class="thumbnail">
                             <img src="img\auto_lu.JPG" alt="">
                             <div class="caption">
-                                <form id="Lubicator" onsubmit="valid()" name="Precision" action="lubricator.jsp" method="POST">
+                                <form id="Lubicator" onsubmit="valid()" name="Precision" action="product_view.jsp" method="POST">
                                     <input type="hidden" value="AGL" name="item_type">
                                     <input type="hidden" value="AU" name="item_catalog">
                                     <h4><a href="javascript:void()" onclick="document.getElementById('Lubicator').submit();">Lubricator</a>
