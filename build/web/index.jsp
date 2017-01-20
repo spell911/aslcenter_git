@@ -9,7 +9,7 @@
     <title>A.S.L CENTER</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
+    <!-- Custom CSS -->    
     <link href="css/shop-homepage.css" rel="stylesheet">
     <!-- Autocomplete CSS -->
     <link href="css/jquery.auto-complete.css" rel="stylesheet">
@@ -23,46 +23,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.jsp">A.S.L CENTER</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="about.jsp">เกี่ยวกับเรา</a>
-                    </li>
-                    <li>
-                        <a href="products.jsp">ผลิตภัณฑ์</a>
-                    </li>
-                    <li>
-                        <a href="contact.jsp">ติดต่อเรา</a>
-                    </li>
-                </ul>
-                <form class="navbar-form navbar-right" name="Search" action="search.jsp" method="POST">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" name="search_item" id="search_item">
-                        <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit">
-                                <i class="glyphicon glyphicon-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+        <jsp:include page="navbar.jsp" />
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -409,13 +370,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="img/p1.jpg" alt="">
+                                    <img class="slide-image" src="img/logo.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="img/p2.jpg" alt="">
+                                    <img class="slide-image" src="img/slide2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="img/p3.jpg" alt="">
+                                    <img class="slide-image" src="img/slide3.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
