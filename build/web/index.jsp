@@ -29,7 +29,6 @@
         <div class="row">
             <div class="col-md-3">
                 <input type="hidden" id="item_type" value="<%= request.getParameter("item_type")%>">
-
                 <h3>หมวดหมู่</h3>
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">

@@ -16,7 +16,7 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "<div class=\"info\">" +
                                 "<div class=\"row\">" +
-                                "<div class=\"price col-md-9\">" +
+                                "<div class=\"price col-md-12\">" +
                                 "<h5><b> " + data[i]['item_name'] + "</b></h5>" +
                                 "<p>Material : " + data[i]['item_detail'] + "</p> "+
                                 "</div>" +
@@ -40,9 +40,9 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "<div class=\"info\">" +
                                 "<div class=\"row\">" +
-                                "<div class=\"price col-md-9\">" +
+                                "<div class=\"price col-md-12\">" +
                                 "<h5><b> " + data[i]['item_name'] + "</b></h5>" +
-                                 "<p>Material : " + data[i]['item_detail'] + "</p> "+
+                                "<p>Material : " + data[i]['item_detail'] + "</p> "+
                                 "</div>" +
                                 "</div>" +
                                 "<div class=\"separator clear-left\">" +
@@ -63,9 +63,9 @@ $(document).ready(function get_Data() {
                                 "</div>" +
                                 "<div class=\"info\">" +
                                 "<div class=\"row\">" +
-                                "<div class=\"price col-md-9\">" +
+                                "<div class=\"price col-md-12\">" +
                                 "<h5><b> " + data[i]['item_name'] + "</b></h5>" +
-                                "<p>Material :<h5> " + data[i]['item_detail'] + "</h5></p> "+
+                                "<p>Material : " + data[i]['item_detail'] + "</p> "+
                                 "</div>" +
                                 "</div>" +
                                 "<div class=\"separator clear-left\">" +

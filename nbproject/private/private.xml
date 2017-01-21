@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/js_functions/product_view.js</url>
+            <bookmark id="1">
+                <name/>
+                <line>9</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/aslcenter/web/products.jsp</file>
-            <file>file:/D:/aslcenter/web/product_menu.jsp</file>
-            <file>file:/D:/aslcenter/web/index.jsp</file>
-            <file>file:/D:/aslcenter/web/contact.jsp</file>
-            <file>file:/D:/aslcenter/web/js_functions/product_menu.js</file>
-            <file>file:/D:/aslcenter/web/about.jsp</file>
-            <file>file:/D:/aslcenter/web/json_data/product_data.json</file>
-            <file>file:/D:/aslcenter/web/product_view.jsp</file>
-            <file>file:/D:/aslcenter/web/navbar.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/navbar.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/json_data/product_data.json</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/product_menu.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/products.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/js_functions/autocom_func.js</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/product_view.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/index.jsp</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/json_data/name_data.json</file>
+            <file>file:/C:/Users/Khun_Phichz/Documents/NetBeansProjects/aslcenter/web/js_functions/product_view.js</file>
         </group>
     </open-files>
 </project-private>
